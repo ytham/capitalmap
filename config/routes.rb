@@ -1,5 +1,10 @@
 Finance::Application.routes.draw do
+  get "sessions/create"
+
+  get "sessions/destroy"
+
   resources :users
+  resources :sessions
 
   #match '/signup' => 'users#create', as: :create_user
   match '/financial_advisors', to: 'static#financial_advisors'

@@ -1,6 +1,10 @@
 class StaticController < ApplicationController
   def index
-    @user
+    @user = User.new
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   def hedge_funds

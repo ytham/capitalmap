@@ -14,10 +14,14 @@ class UsersController < ApplicationController
   def create
     @user = User.create(params[:user])
     if @user.save
-      session[:user] = user.id
-      redirect_to root_url
+      session[:user] = @user.id
+      redirect_to @user
     else
-      redirect_to 'new'
+      redirect_to root_url, notce: "Errors detected."
     end
+  end
+
+  def save_password
+    @user = User.find()
   end
 end

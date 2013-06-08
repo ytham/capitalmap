@@ -1,18 +1,33 @@
 <h2>Sign Up</h2>
 <%= form_for @user, url: { controller: 'users', action: 'create' }, html: { method: :post } do |f| %>
-<p>
+  <% if @user.errors.any? %>
+    <div id="error_messages">
+      <h3>Form has the following errors:</h3>
+      <ul>
+        <% for message in @user.errors.full_messages %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+<div class="signup_firstname">
  <%= f.label :first_name %>
- <%= f.text_field :first_name %>
-</p>
-<p>
+ <%= f.text_field :first_name, class: "signup_field" %>
+</div>
+<div class="signup_lastname">
  <%= f.label :last_name %>
- <%= f.text_field :last_name %>
-</p>
-<p>
+ <%= f.text_field :last_name, class: "signup_field" %>
+</div>
+<br>
   <%= f.label 'Email Address' %>
-  <%= f.text_field :email %>
-</p>
-<p>
-  <%= f.submit 'Sign up!' %>
-</p>
+  <%= f.text_field :email, class: "signup_field" %>
+<br>
+  <%= f.label :password %>
+  <%= f.password_field :password, class: "signup_field" %>
+<br>
+  <%= f.label :password_confirmation %>
+  <%= f.password_field :password_confirmation, class: "signup_field" %>
+<br>
+
+  <%= f.submit 'Sign up!', disable_with: "Please wait...", class: "btn btn-primary" %>
 <% end %>
