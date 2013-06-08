@@ -1,0 +1,80 @@
+$mainColor: #1100a3;
+$headerColor: #ffffff;
+
+body {
+  background-color: #ffffee;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  padding: 0px;
+  margin: 0px;
+}
+
+// Header //
+
+#header {
+  background-color: $headerColor;
+  height: 55px;
+}
+
+.globe {
+  padding: 0px;
+  margin: -8px 0px -5px 0px;
+}
+
+.searchbar {
+  border-radius: 15px;
+}
+
+.spacer {
+  display: inline-block;
+  height: 35px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.logo {
+  display: inline-block;
+  width: 250px;
+  height: 55px;
+  padding: 2px 0px 0px 20px;
+}
+
+.login {
+  display: inline-block;
+  width: 200px;
+  float: right;
+  clear: both;
+  text-align: right;
+  margin: 10px 20px 0px 0px;
+}
+
+
+// Footer //
+
+#footer {
+  color: #dddddd;
+}
+
+// Index Page Content //
+
+.splash {
+  background: url('/assets/windmills.jpg');
+  background-size: 100%;
+  background-position: center;
+  padding: 30px 0px 30px 0px;
+}
+
+.description {
+  background-color: #ffffff;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+.signup {
+  background-color: #ffffff;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+
+
