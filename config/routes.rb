@@ -1,30 +1,22 @@
 Finance::Application.routes.draw do
   get "sustainability_data/dow_jones"
-
   get "commodities/oil"
-
   get "commodities/renewables"
-
   get "commodities/copper"
-
   get "securities/corporate_bonds"
-
   get "securities/soverign_bonds"
-
   get "securities/municipal_bonds"
-
   get "securities/equities"
-
   get "securities/etfs"
-
+  get "currencies/largest_economies"
+  get "economic_data/consumer_prices"
+  get "economic_data/economic_data"
   get "economic_data/leading_indicators"
-
+  get "economic_data/national_accounts"
+  get "economic_data/producer_prices"
   get "stocks/create"
-
   get "stocks/destroy"
-
   get "sessions/create"
-
   get "sessions/destroy"
 
   resources :users
