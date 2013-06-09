@@ -16,9 +16,9 @@
                                 <li><a href="#">Portfolio</a></li>
                                 <li><a href="#">Indices</a></li>
                             </ul>
-                            <span class="navbar-form pull-right" style="height: 30px">
-                                <%= link_to current_user.first_name, current_user %> | 
-                                <%= link_to 'Log Out', logout_path %>
+                            <ul class="nav pull-right">
+                                <li><%= link_to current_user.first_name, current_user %></li>
+                                <li><%= link_to 'Log Out', logout_path %></li>
                             </span>
                         </div>
                     <% else %>

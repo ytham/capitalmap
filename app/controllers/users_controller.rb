@@ -21,7 +21,8 @@ class UsersController < ApplicationController
   def create
     @user = User.create(params[:user])
     if @user.save
-      session[:user] = @user.id
+      session[:user_id] = @user.id
+      current_user = @user
       redirect_to @user
     else
       redirect_to root_url, notce: "Errors detected."

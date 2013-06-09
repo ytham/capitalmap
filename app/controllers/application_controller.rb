@@ -13,11 +13,11 @@ class ApplicationController < ActionController::Base
     end
 
     def current_user
-      @current_user ||= User.find(session[:user_id]) if session[:user_id]
+      @current_user ||= User.where(id: session[:user_id]).first if session[:user_id]
     end
 
     def admin_user_or_current_user
-        redirect_to(root_path) unless current_user.admin? || current_user
+      redirect_to(root_path) unless current_user.admin? || current_user
     end
 
     def signed_in_user
