@@ -5,6 +5,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user
   helper_method :admin_user_or_current_user
   helper_method :signed_in?
+  helper_method :fetch_url
 
   private
 
@@ -27,4 +28,14 @@ class ApplicationController < ActionController::Base
     def signed_in?
       !current_user.nil?
     end
+
+    def fetch_url(url)
+      r = Net::HTTP.get_response( URI.parse( url ) )
+      if r.is_a? Net::HTTPSuccess
+        r.body
+      else
+        nil
+      end
+    end
+
 end

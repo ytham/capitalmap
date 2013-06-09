@@ -1,0 +1,2 @@
+module SustainabilityDataHelper
+end

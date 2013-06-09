@@ -1,4 +1,24 @@
 Finance::Application.routes.draw do
+  get "sustainability_data/dow_jones"
+
+  get "commodities/oil"
+
+  get "commodities/renewables"
+
+  get "commodities/copper"
+
+  get "securities/corporate_bonds"
+
+  get "securities/soverign_bonds"
+
+  get "securities/municipal_bonds"
+
+  get "securities/equities"
+
+  get "securities/etfs"
+
+  get "economic_data/leading_indicators"
+
   get "stocks/create"
 
   get "stocks/destroy"
@@ -9,6 +29,8 @@ Finance::Application.routes.draw do
 
   resources :users
   resources :stocks
+  resources :economic_data
+
   resources :sessions
 
   #match '/signup' => 'users#create', as: :create_user

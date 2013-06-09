@@ -1,0 +1,2 @@
+module EconomicDataHelper
+end

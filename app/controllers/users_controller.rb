@@ -32,4 +32,15 @@ class UsersController < ApplicationController
   def save_password
     @user = User.find()
   end
+
+  def portfolio
+        if signed_in?
+      respond_to do |format|
+        format.html
+      end
+    else
+      redirect_to root_url
+    end
+  end
+
 end
