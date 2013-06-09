@@ -10,7 +10,7 @@ Finance::Application.routes.draw do
   get "securities/etfs"
   get "currencies/largest_economies"
   get "economic_data/consumer_prices"
-  get "economic_data/economic_data"
+  get "economic_data/economic_activity"
   get "economic_data/leading_indicators"
   get "economic_data/national_accounts"
   get "economic_data/producer_prices"
