@@ -4,6 +4,6 @@ $(document).ready(function(){
 	var filename = url.match(/.*\/(.*)$/)[1];
 	var icon = '<i class="icon-chevron-right icon-white"></i>';
 	document.getElementById(filename).innerHTML += icon;
-	$('#'+filename).parent(".accordion-body").addClass("in");
+	$('#leading_indicators').parent().parent().parent().parent().find(".accordion-body").addClass("in");
 
 })
