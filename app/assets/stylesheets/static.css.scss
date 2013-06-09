@@ -122,10 +122,28 @@ h1 {
 
 // User Page Content //
 
+.dash_stock {
+  display: inline-block;
+  height: 180px;
+  width: 350px;
+  margin: 2px;
+  overflow-y: hidden;
+}
+
 .tableauViz {
   //display: none;
   width: 100%;
-  height: 900px;
+  height: 600px;
+}
+
+.tableauVizDash {
+  display: inline-block;
+  position: absolute;
+  left: 690px;
+  top: 56px;
+  width: 50%;
+  height: 600px;
+
 }
 
 .user_mainpage {
