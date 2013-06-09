@@ -30,6 +30,10 @@ Finance::Application.routes.draw do
   resources :users
   resources :stocks
   resources :economic_data
+  resources :securities
+  resources :commodities
+  resources :currencies
+  resources :sustainability_data
 
   resources :sessions
 
