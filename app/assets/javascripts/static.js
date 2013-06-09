@@ -5,4 +5,5 @@ $(document).ready(function(){
 	var icon = '<i class="icon-chevron-right icon-white"></i>';
 	document.getElementById(filename).innerHTML += icon;
 	$('#'+filename).parent(".accordion-body").addClass("in");
+
 })
