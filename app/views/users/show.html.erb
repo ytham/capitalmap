@@ -1,22 +1,21 @@
-<br><br>
-<div class="user_mainpage">
-  <h1><%= @user.first_name %> <%= @user.last_name %></h1>
-  <p><%= @user.email %></p>
-
-  <h2>Stocks</h2>
-  <p>
-  <%= form_for(current_user.stocks.create(user_id: current_user.id)) do |f| %>
-    <%= f.label 'Stock Symbol' %>
-    <%= f.text_field :ticker %>
-    <%= f.submit 'Add Stock', class: "btn" %>
-  <% end %>
-  </p>
-
-  <div id="all_stocks">
-    <% current_user.stocks.each do |e| %>
-      <p><img src="http://chart.finance.yahoo.com/z?s=<%= e.ticker %>&t=3m&q=c&l=on"></p>
-    <% end %>
+<div class="all-content">
+  <!-- SIDEBAR -->
+  <div class="nav-sidebar">
+    <%= render "sidebar" %>
   </div>
 
-  <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauViz"><noscript><a href="#"><img alt="US Leading Indicators " src="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;US&#47;USConferenceBoardLeadingIndicators-v2&#47;Dashboard1&#47;1_rss.png" style="border: none" /></a></noscript><object class="tableauViz"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="USConferenceBoardLeadingIndicators-v2&#47;Dashboard1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="static_image" value="http:&#47;&#47;public.tableausoftware.com&#47;static&#47;images&#47;US&#47;USConferenceBoardLeadingIndicators-v2&#47;Dashboard1&#47;1.png" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div><div style="width:664px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;"><div style="float:right; padding-right:8px;"><a href="http://www.tableausoftware.com/public/about-tableau-products?ref=http://public.tableausoftware.com/views/USConferenceBoardLeadingIndicators-v2/Dashboard1" target="_blank">Learn About Tableau</a></div></div>
+  <!-- MAIN CONTENT -->
+  <div class="main-content-wrap">
+    <div class="main-content">
+      <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script>
+        <div class="tableauViz"><noscript><a href="#"></a></noscript><object class="tableauViz"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="USConferenceBoardLeadingIndicators-v2&#47;Dashboard1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="animate_transition" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object>
+        </div>
+        <div style="width:664px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;">
+          <div style="float:right; padding-right:8px;"><a href="http://www.tableausoftware.com/public/about-tableau-products?ref=http://public.tableausoftware.com/views/USConferenceBoardLeadingIndicators-v2/Dashboard1" target="_blank">Learn About Tableau</a>
+          </div>
+        </div>
+    </div>
+  </div>
 </div>
+
+

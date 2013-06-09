@@ -1,0 +1,27 @@
+<br><br>
+<div class="user_mainpage">
+  <h1><%= @user.first_name %> <%= @user.last_name %></h1>
+  <p><%= @user.email %></p>
+
+
+
+  
+</div>
+
+
+  <h2>Stocks</h2>
+  <p>
+  <%= form_for(current_user.stocks.new(user_id: current_user.id)) do |f| %>
+    <%= f.label 'Stock Symbol' %>
+    <%= f.text_field :ticker %>
+    <%= f.submit 'Add Stock', class: "btn" %>
+  <% end %>
+  </p>
+
+  <div id="all_stocks">
+    <% if current_user.stocks.exists? %>
+    <% current_user.stocks.each do |e| %>
+      <p><img src="http://chart.finance.yahoo.com/z?s=<%= e.ticker %>&t=3m&q=c&l=on"></p>
+    <% end %>
+    <% end %> 
+  </div>
