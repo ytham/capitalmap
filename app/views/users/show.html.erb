@@ -7,14 +7,25 @@
   <!-- MAIN CONTENT -->
   <%= render "mainwrapper_head" %>
 
+<b>Stocks</b><br>
+<div class="dash_stock"><img src="http://chart.finance.yahoo.com/z?s=DJIA&t=3m&q=c&l=on"></div>
+<div class="dash_stock"><img src="http://chart.finance.yahoo.com/z?s=GOOG&t=3m&q=c&l=on"></div>
+<div class="dash_stock"><img src="http://chart.finance.yahoo.com/z?s=AAPL&t=3m&q=c&l=on"></div>
+<br><br>
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <b>US Leading Indicators</b><br>
       <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script>
         <div class="tableauViz"><noscript><a href="#"></a></noscript><object class="tableauViz"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="USConferenceBoardLeadingIndicators-v2&#47;Dashboard1" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="animate_transition" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object>
         </div>
-        <div style="width:664px;height:22px;padding:0px 10px 0px 0px;color:black;font:normal 8pt verdana,helvetica,arial,sans-serif;">
-          <div style="float:right; padding-right:8px;"><a href="http://www.tableausoftware.com/public/about-tableau-products?ref=http://public.tableausoftware.com/views/USConferenceBoardLeadingIndicators-v2/Dashboard1" target="_blank">Learn About Tableau</a>
-          </div>
-        </div>
-
+    </td>
+    <td width="50%">
+      <b>Commodities: Copper</b><br>
+        <script type="text/javascript" src="http://public.tableausoftware.com/javascripts/api/viz_v1.js"></script><div class="tableauViz"><noscript><a href="#"></a></noscript><object class="tableauViz"><param name="host_url" value="http%3A%2F%2Fpublic.tableausoftware.com%2F" /><param name="site_root" value="" /><param name="name" value="Commodity_Copper_0&#47;Dashboard2" /><param name="tabs" value="no" /><param name="toolbar" value="yes" /><param name="animate_transition" value="yes" /><param name="display_static_image" value="yes" /><param name="display_spinner" value="yes" /><param name="display_overlay" value="yes" /><param name="display_count" value="yes" /></object></div>
+    </td>
+  </tr>
+</table>
   <%= render "mainwrapper_foot" %>
 
 
