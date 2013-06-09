@@ -34,7 +34,7 @@ class UsersController < ApplicationController
   end
 
   def portfolio
-        if signed_in?
+    if signed_in?
       respond_to do |format|
         format.html
       end

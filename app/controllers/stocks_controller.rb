@@ -14,7 +14,7 @@ class StocksController < ApplicationController
     @stock = current_user.stocks.new(params[:stock])
     if @stock.save
       respond_to do |format|
-        format.html
+        format.js
       end
     end
   end

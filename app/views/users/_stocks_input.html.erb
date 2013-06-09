@@ -1,0 +1,5 @@
+  <%= form_for(current_user.stocks.new(user_id: current_user.id), remote: true) do |f| %>
+    <%= f.text_field :ticker %><br>
+    <%= f.submit 'Add Stock', class: "btn", id: "stocks_input" %>
+  <% end %>
+  </p>

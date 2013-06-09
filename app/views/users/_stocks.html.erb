@@ -1,18 +1,12 @@
-  <%= form_for(current_user.stocks.new(user_id: current_user.id)) do |f| %>
-    <%= f.text_field :ticker %><br>
-    <%= f.submit 'Add Stock', class: "btn" %>
-  <% end %>
-  </p>
 
-  <div id="all_stocks">
+  <div id="stocks">
     <% if current_user.stocks.exists? %>
-    <table>
       <% current_user.stocks.each do |e| %>
-        <tr class="float <%= e.ticker %>">
-          <td><%= e.ticker.to_upper %></td>
-          <td><img src="http://chart.finance.yahoo.com/z?s=<%= e.ticker %>&t=3m&q=c&l=on"></td>
-        </tr>
+        <% if current_user.stocks.last != e %>
+          <!-- Do nothing -->
+        <% else %>
+            <div class="charts"><img src="http://chart.finance.yahoo.com/z?s=<%= e.ticker %>&t=3m&q=c&l=on"></div>
+        <% end %>
       <% end %>
-    </table>
     <% end %> 
   </div>
