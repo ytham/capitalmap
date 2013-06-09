@@ -1,9 +1,14 @@
 Finance::Application.routes.draw do
+  get "stocks/create"
+
+  get "stocks/destroy"
+
   get "sessions/create"
 
   get "sessions/destroy"
 
   resources :users
+  resources :stocks
   resources :sessions
 
   #match '/signup' => 'users#create', as: :create_user
