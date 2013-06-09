@@ -13,11 +13,12 @@
                         <div class="nav-collapse collapse">
                             <ul class="nav">
                                 <li class="active"><%= link_to 'Home', root_url %></li>
-                                <li><a href="#about">Portfolio</a></li>
-                                <li><a href="#contact">Cool</a></li>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Indices</a></li>
                             </ul>
                             <span class="navbar-form pull-right" style="height: 30px">
-                                <%= link_to 'Log Out', '/logout' %>
+                                <%= link_to current_user.first_name, current_user %> | 
+                                <%= link_to 'Log Out', logout_path %>
                             </span>
                         </div>
                     <% else %>

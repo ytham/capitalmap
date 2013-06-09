@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
   helper_method :admin_user
   helper_method :current_user
   helper_method :admin_user_or_current_user
+  helper_method :signed_in?
 
   private
 

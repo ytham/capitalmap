@@ -11,6 +11,7 @@ Finance::Application.routes.draw do
   match '/hedge_funds', to: 'static#hedge_funds'
   match '/investment_managers', to: 'static#investment_managers'
   match '/traders', to: 'static#traders' 
+  match '/logout', to: 'sessions#destroy'
 
   root to: 'static#index'
 

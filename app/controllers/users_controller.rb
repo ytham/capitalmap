@@ -5,6 +5,13 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    if @user == current_user
+      respond_to do |format|
+        format.html
+      end
+    else
+      redirect_to root_url
+    end
   end
 
   def new
