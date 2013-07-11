@@ -6,7 +6,7 @@ production:
         skip_version_check: true
         safe: true
     crawler:
-      uri: <%= ENV['MONGOLAB_URL'] %>
+      uri: <%= ENV['MONGOLAB_URI2'] %>
       options:
         skip_version_check: true
         safe: true
