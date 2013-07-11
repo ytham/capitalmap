@@ -7,6 +7,7 @@ production:
         safe: true
     heroku_app16195437:
       uri: <%= ENV['MONGOLAB_URL'] %>
+      database: heroku_app16195437
       options:
         skip_version_check: true
         safe: true
@@ -40,7 +41,7 @@ development:
         # The time in seconds that Moped should wait before retrying an
         # operation on failure. (default: 1)
         # retry_interval: 1
-    crawler:
+    heroku_app16195437:
       database: crawler
       hosts:
         - localhost:27017
