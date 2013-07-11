@@ -8,6 +8,8 @@
     <% max_index = keyword_index + 300 %>
     <% min_index = 0 if min_index < 0 %>
     <% max_index = a.body.length-1 if max_index > a.body.length-1 %>
+    <% a.body[keyword_index+params[:search].length-1] += "</b>" %>
+    <% a.body[keyword_index-1] += "<b>" %>
     <%= a.body[min_index..max_index] %><br><br><br>
   <% end %>
 <% else %>

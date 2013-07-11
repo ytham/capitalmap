@@ -5,7 +5,7 @@ production:
       options:
         skip_version_check: true
         safe: true
-    crawler:
+    heroku_app16195437:
       uri: <%= ENV['MONGOLAB_URL'] %>
       options:
         skip_version_check: true

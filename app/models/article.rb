@@ -1,6 +1,6 @@
 class Article
   include Mongoid::Document
-  store_in session: "crawler"
+  store_in session: "heroku_app16195437"
 
   field :title, type: String
   field :url, type: String
