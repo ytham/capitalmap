@@ -5,6 +5,11 @@ production:
       options:
         skip_version_check: true
         safe: true
+    crawler:
+      uri: <%= ENV['MONGOLAB_URL'] %>
+      options:
+        skip_version_check: true
+        safe: true
 
 development:
   # Configure available database sessions. (required)
@@ -35,6 +40,11 @@ development:
         # The time in seconds that Moped should wait before retrying an
         # operation on failure. (default: 1)
         # retry_interval: 1
+    crawler:
+      database: crawler
+      hosts:
+        - localhost:27017
+      options:
   # Configure Mongoid specific options. (optional)
   options:
     # Configuration for whether or not to allow access to fields that do

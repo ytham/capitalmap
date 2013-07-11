@@ -5,6 +5,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @search = Article.with(collection: "yahoo").first
     if @user == current_user
       respond_to do |format|
         format.html

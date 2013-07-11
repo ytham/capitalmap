@@ -1,4 +1,5 @@
 Finance::Application.routes.draw do
+  get "articles/index"
   get "sustainability_data/dow_jones"
   get "commodities/oil"
   get "commodities/renewables"
@@ -26,6 +27,7 @@ Finance::Application.routes.draw do
   resources :commodities
   resources :currencies
   resources :sustainability_data
+  resources :articles
 
   resources :sessions
 

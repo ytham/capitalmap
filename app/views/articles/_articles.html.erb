@@ -1,0 +1,15 @@
+<%= hidden_field_tag :direction, params[:direction] %>
+<%= hidden_field_tag :sort, params[:sort] %>
+<% if @articles %>
+  <% @articles.each do |a| %>
+    <span class="article_link"><%= link_to a.title, a.url %></span><br>
+    <% keyword_index = a.body.downcase.index(params[:search].downcase) %>
+    <% min_index = keyword_index - 100 %>
+    <% max_index = keyword_index + 300 %>
+    <% min_index = 0 if min_index < 0 %>
+    <% max_index = a.body.length-1 if max_index > a.body.length-1 %>
+    <%= a.body[min_index..max_index] %><br><br><br>
+  <% end %>
+<% else %>
+  No articles found.
+<% end %>

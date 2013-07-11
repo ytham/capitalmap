@@ -18,8 +18,14 @@
                                 <li><%= link_to 'Contact', contact_path %></li>
                             </ul>
                             <ul class="nav pull-right">
+                                <li><div style="width:20px; height:30px"> </div></li>
                                 <li><%= link_to current_user.first_name, current_user %></li>
                                 <li><%= link_to 'Log Out', logout_path %></li>
+                            </ul>
+                            <span class="navbar-form pull-right" style="height: 30px">
+                                <%= form_tag articles_path, method: 'get', id: 'articles_search' do %>
+                                    <%= text_field_tag :search, params[:search] %>
+                                <% end %>
                             </span>
                         </div>
                     <% else %>
