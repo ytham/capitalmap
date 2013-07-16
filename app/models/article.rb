@@ -8,7 +8,7 @@ class Article
 
   def self.search(string)
     if string
-      Article.with(collection: "yahoo").any_of({title: /#{string}/i}, {body: /#{string}/i})
+      Article.with(collection: "sec").any_of({title: /#{string}/i}, {body: /#{string}/i})
     else
       nil
     end
