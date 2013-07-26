@@ -39,6 +39,16 @@ class SecuritiesController < ApplicationController
     end
   end
 
+  def stock_growth
+    if signed_in?
+      respond_to do |format|
+        format.html
+      end
+    else
+      redirect_to root_url
+    end
+  end
+
   def etfs
     if signed_in?
       respond_to do |format|

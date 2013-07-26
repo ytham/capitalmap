@@ -8,6 +8,7 @@ Finance::Application.routes.draw do
   get "securities/soverign_bonds"
   get "securities/municipal_bonds"
   get "securities/equities"
+  get "securities/equities/stock_growth"
   get "securities/etfs"
   get "currencies/largest_economies"
   get "economic_data/consumer_prices"
