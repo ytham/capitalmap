@@ -15,3 +15,16 @@ class SustainabilityDataControllerTestTwo <ActionController::TestCase
 	end 
 end 
 
+class SustainabilityDataControllerTestTwo <ActionController::TestCase
+	test "should get corporate_governance" do 
+		get :corporate_governance
+		assert_response :success
+	end 
+end 
+
+class SustainabilityDataControllerTestTwo <ActionController::TestCase
+	test "should get environmental_data" do 
+		get :environmental_data
+		assert_response :success
+	end 
+end 
