@@ -1,0 +1,455 @@
+[33mcommit 9b750b608586af7bd5ca6ab196ce15aee1a5a56a[m
+Merge: b0efbdc ea02323
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Sat Jul 27 09:54:45 2013 -0700
+
+    Merge branch 'master' of https://github.com/ytham/capitalmap
+
+[33mcommit ea023233dc0f026e68ff509a7ab9bf62c07b0e24[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Sat Jul 27 09:45:35 2013 -0700
+
+    Delete equities-stock growth
+
+[33mcommit b0efbdc300277609cbc4090c5b941d825d6f6bdd[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Sat Jul 27 09:35:51 2013 -0700
+
+    added stock growth page
+
+[33mcommit be7224094f61c228cd6e13c329b05d346b953ea6[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Thu Jul 25 21:07:47 2013 -0700
+
+    Added stock growth page
+
+[33mcommit 6159af6bfaf516fc6e108927f9e2381a507050f6[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Thu Jul 25 15:27:53 2013 -0700
+
+    Update oil.html.erb
+
+[33mcommit d5daed1c5bbccfa33b4257f7dac7f41af6988214[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Thu Jul 25 15:26:37 2013 -0700
+
+    Update equities-stock growth
+
+[33mcommit 601f147ae4e984059054dc9b3b0d28be6dd20816[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Thu Jul 25 15:24:30 2013 -0700
+
+    Create equities-stock growth
+
+[33mcommit c3937e9dfa9eb97fde991e50ca6e1ff95037a29e[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Thu Jul 25 15:14:20 2013 -0700
+
+    Update equities.html.erb
+
+[33mcommit 77e36f3e6bd3919acb5ed398d836e22969623a0b[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Tue Jul 23 14:20:32 2013 -0700
+
+    Update leading_indicators.html.erb
+
+[33mcommit 8b975faf136f1d85c2b0fd76b5e59b2b5b75b684[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Tue Jul 23 14:20:16 2013 -0700
+
+    Update economic_activity.html.erb
+
+[33mcommit 5dab20834f4dd7a0750c592caa5e63c657d2edd9[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Tue Jul 23 14:20:01 2013 -0700
+
+    Update consumer_prices.html.erb
+
+[33mcommit 609fe69f5521caf485a81aedcc0109fbdae8025a[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Mon Jul 22 20:21:34 2013 -0700
+
+    Modifying top navbar
+
+[33mcommit 0f7e2beb317058c588c693269bdac4623711cb7e[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 11:57:02 2013 -0700
+
+    Update corporate_bonds.html.erb
+
+[33mcommit ff89b74570757981e416ae4b9d2c1fc4de30d6ee[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 11:56:15 2013 -0700
+
+    Update soverign_bonds.html.erb
+
+[33mcommit 9f398b8bd5420912bac66b2f413ff7ab6df2f7c5[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 11:55:31 2013 -0700
+
+    Update municipal_bonds.html.erb
+
+[33mcommit 1e53a11638c77558e50095b2bc67e112131819e8[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 09:24:05 2013 -0700
+
+    Update national_accounts.html.erb
+
+[33mcommit aa50b9c824cc032e32b00a88e3182747dd3d2d9d[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 09:21:51 2013 -0700
+
+    Update national_accounts.html.erb
+
+[33mcommit 79acde42a335c7360635cbaadf9be39d33369494[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 09:18:48 2013 -0700
+
+    Update economic_activity.html.erb
+
+[33mcommit 67a055d033b00f3920e1ed27562c3c308b292fb9[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 09:18:15 2013 -0700
+
+    Update national_accounts.html.erb
+
+[33mcommit 371ff0ae1f3839992441a81c73ecc2ee8598df1b[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 09:17:52 2013 -0700
+
+    Update dow_jones.html.erb
+
+[33mcommit b0bc8e79e030849e162791398c4872d9fe3b6845[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 09:17:17 2013 -0700
+
+    Update leading_indicators.html.erb
+
+[33mcommit 6de69e4cbd5561fd564579cc0cedcb877cd64c22[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 09:16:59 2013 -0700
+
+    Update consumer_prices.html.erb
+
+[33mcommit ce5b3614bccbc223deb23f50a18f9081da7a4e0a[m
+Merge: 9cddc96 d58f18b
+Author: ytham <yoojbruin@gmail.com>
+Date:   Wed Jul 17 08:27:49 2013 -0700
+
+    Merge pull request #1 from lukailin/patch-2
+    
+    Update producer_prices.html.erb
+
+[33mcommit d58f18b12a45f26f3de6663e54c9eef7d66fc705[m
+Author: lukailin <lukailin@berkeley.edu>
+Date:   Wed Jul 17 07:53:46 2013 -0700
+
+    Update producer_prices.html.erb
+
+[33mcommit 9cddc96cdf673fbeb17e454062dcd2185e3e6403[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Tue Jul 16 09:10:43 2013 -0700
+
+    Guard body keyword_index when searching
+
+[33mcommit 0b23b9e711d09426c9b54ffd5d42197f3da95205[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Mon Jul 15 23:03:19 2013 -0700
+
+    Switched db to SEC
+
+[33mcommit 05605765bb4eb8aed34cd4944351bf4498420f02[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Thu Jul 11 08:55:19 2013 -0700
+
+    Added search highlighting
+
+[33mcommit c11d333181cd8c967d81410ed98f3da2d0ecf027[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Thu Jul 11 08:41:30 2013 -0700
+
+    Changing mongo config
+
+[33mcommit 79f3f73612e77734a6d92df605a5e74e00f8bff0[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Thu Jul 11 00:36:34 2013 -0700
+
+    Changing mongo config back
+
+[33mcommit 5db8ec51fa60fc7fc89474635e264d5a092311f9[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Thu Jul 11 00:19:21 2013 -0700
+
+    Mongoid.yml database production
+
+[33mcommit a4859b6607260cddd3dc6c5cd4fa4899a889e4bc[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Wed Jul 10 22:30:31 2013 -0700
+
+    Modifications for heroku
+
+[33mcommit 6a1e683b2c226c0b300bfbb0c30d96ec76713c62[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Wed Jul 10 21:11:25 2013 -0700
+
+    Changed users_controller for prod
+
+[33mcommit 14040cd8b855051ea6952ba3d6968741a565a09e[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Wed Jul 10 21:03:37 2013 -0700
+
+    Changed database info for mongolab
+
+[33mcommit fbb21d01df0902baa5c40d43f8526dbff66ca725[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Wed Jul 10 18:14:21 2013 -0700
+
+    Added search
+
+[33mcommit 852a354c0939990e4612e85c35a301146900727b[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 15:42:11 2013 -0700
+
+    Fixes
+
+[33mcommit d3acd15d43562923de62eb7301fc35ff1d0946a3[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 15:38:23 2013 -0700
+
+    Final changes
+
+[33mcommit c9957cc519d0297fb09499f3ee116fa950bb0477[m
+Merge: c39953f 1e69533
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 15:31:28 2013 -0700
+
+    Merge branch 'master' of github.com:ytham/capitalmap
+
+[33mcommit 1e6953369418100d9beed74243e655af98965a7b[m
+Merge: e59ea1f c93e5d0
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 15:31:00 2013 -0700
+
+    Merge branch 'master' of https://github.com/ytham/capitalmap
+
+[33mcommit c39953fd0d7fc9c6f474278cd102d6eac5b77ed5[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 15:30:40 2013 -0700
+
+    Modifications
+
+[33mcommit e59ea1f88016ca058c26cf712d35fb9feae20cee[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 15:30:24 2013 -0700
+
+    responsive stuff
+
+[33mcommit c93e5d01de3f0e9a35f6eb0caeb83050d60db0dc[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 15:15:10 2013 -0700
+
+    Spelling error
+
+[33mcommit d42e9655cf2112ca851ff5973acaa896283ed6fd[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 15:04:42 2013 -0700
+
+    Margghhh
+
+[33mcommit 9194cb3f9a0b49306eb087ab240fcc3dac7609c3[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 14:59:47 2013 -0700
+
+    Fixed sidebar
+
+[33mcommit f8d3acf9fd5096dfbdc392b60eb7a48386c9da8d[m
+Merge: b20c948 6b7ca13
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 14:59:03 2013 -0700
+
+    Merge branch 'master' of github.com:ytham/capitalmap
+
+[33mcommit b20c94885bdd859acbc2be4b55086fd4e4d34c47[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 14:59:00 2013 -0700
+
+    Moo
+
+[33mcommit 6b7ca133bf3df895873724d1c33ba900646d5844[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 14:58:17 2013 -0700
+
+    sidebar indicator
+
+[33mcommit 12ecd1c0b236e5679dcc815fc83be32990287383[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 14:53:13 2013 -0700
+
+    navbar padding
+
+[33mcommit 5622a5f211371b13b3d732ef06e47758500f75db[m
+Merge: fbeea89 06606ed
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 14:19:04 2013 -0700
+
+    edit to static.js
+
+[33mcommit fbeea8940914e050af2d3f9edab93e0dece8d18f[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 14:17:43 2013 -0700
+
+    updates that don't really work
+
+[33mcommit 06606eda57008d28192d302e1d8881de7b3a3e89[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 13:39:24 2013 -0700
+
+    fun
+
+[33mcommit ded7751ee35da2364a4cddbee49fa5b43a65163e[m
+Merge: e439c79 7463670
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 13:23:51 2013 -0700
+
+    Merge branch 'master' of github.com:ytham/capitalmap
+
+[33mcommit 74636702bb014899c88dd027a5f3b4f43a7fab00[m
+Merge: 2019909 0f9c5dc
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 13:22:33 2013 -0700
+
+    Merge branch 'master' of https://github.com/ytham/capitalmap
+
+[33mcommit 20199092839c21d879bc51d56dc0c82606ff2e1e[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 13:22:21 2013 -0700
+
+    static.js
+
+[33mcommit e439c79a360357c27585f6c006fb53c937a1a7ff[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 13:21:34 2013 -0700
+
+    rm local static
+
+[33mcommit 179cee11411815e93ed7ae66c48298804b875c22[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 13:21:09 2013 -0700
+
+    Sidebar working
+
+[33mcommit 5948791cbab0741f31f071bb8e6bd44d8639959b[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 13:19:27 2013 -0700
+
+    Sidebar indicators
+
+[33mcommit 0f9c5dcbdee108343eb5f26a49c00ab7aaa1cc1a[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 13:09:28 2013 -0700
+
+    Leading indicators
+
+[33mcommit 5304c9d696d4648fa1219fa251ccf785080708b6[m
+Merge: b24d6b2 639980d
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 12:55:22 2013 -0700
+
+    Merge branch 'master' of github.com:ytham/capitalmap
+
+[33mcommit b24d6b213c235507c9e1983fa0abc9271ea9d6bc[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 12:55:18 2013 -0700
+
+    Added content
+
+[33mcommit 639980dd2cd43229c449c169a2bbe0250ac58b4e[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 12:54:57 2013 -0700
+
+    Chevron sidebar
+
+[33mcommit bebbe7203761c54ca13e68079e25c03b1beb9c60[m
+Merge: 5ab088f a8cf650
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 12:30:35 2013 -0700
+
+    Merge branch 'master' of https://github.com/ytham/capitalmap
+
+[33mcommit 5ab088f2e98aec44ef909317d0780611dbd0d6b5[m
+Author: mike-tang <michael.c.tang@gmail.com>
+Date:   Sun Jun 9 12:30:01 2013 -0700
+
+    update static.js
+
+[33mcommit a8cf650f282672aaa5acc56f6f274de2ab1f4bb0[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 11:57:15 2013 -0700
+
+    Change BG color
+
+[33mcommit d6567f9ea99ae5ee6e4d41b3c28a3d6d34207c05[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 11:17:05 2013 -0700
+
+    Fixed subcategories
+
+[33mcommit 0368771bd69b63c485426f24e34d1fe3b3c00d68[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sun Jun 9 11:12:52 2013 -0700
+
+    Added sidebar content
+
+[33mcommit 88031d02e8755954382e201d6224ac87064666bc[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 23:40:17 2013 -0700
+
+    Design left sidebar
+
+[33mcommit 4c655ad183734696796f84024bf87e2d029e23f7[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 20:49:10 2013 -0700
+
+    Fix bootstrap link
+
+[33mcommit d488950f763e9b72820634a319515255ad814da8[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 20:30:00 2013 -0700
+
+    Viewport change
+
+[33mcommit 36d73c0180383cc6f85a7a789afb1be43b580e04[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 20:27:46 2013 -0700
+
+    Added stocks
+
+[33mcommit f01b5c73c7cfa5b3813777e60eb253eb9f8b3251[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 19:16:09 2013 -0700
+
+    User login and creation works
+
+[33mcommit 0d456bcb6a3787c22a1b45a0e67091517f7f830f[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 17:07:13 2013 -0700
+
+    Added charts again
+
+[33mcommit a21f597d4fd0f2788d4622373da60ba83866dff9[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 16:53:00 2013 -0700
+
+    gitignore
+
+[33mcommit e181e8af8aaee952b423b3374dd9abb5b3111bc6[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 16:51:11 2013 -0700
+
+    Login works
+
+[33mcommit d23dcc783bce7b130d5820a8ddb086d9ada3361f[m
+Author: Yu Jiang Tham <yoojbruin@gmail.com>
+Date:   Sat Jun 8 12:28:14 2013 -0700
+
+    Initial Commit.
