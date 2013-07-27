@@ -9,8 +9,8 @@ class SustainabilityDataControllerTest < ActionController::TestCase
 end
 
 class SustainabilityDataControllerTestTwo <ActionController::TestCase
-	test "should get social_data" do 
-		get :social_data
+	test "should get corporate_social_responsibility" do 
+		get :corporate_social_responsibility
 		assert_response :success
 	end 
 end 

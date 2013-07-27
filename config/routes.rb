@@ -1,7 +1,7 @@
 Finance::Application.routes.draw do
   get "articles/index"
   get "sustainability_data/dow_jones"
-  get "sustainability_data/social_data"
+  get "sustainability_data/corporate_social_responsibility"
   get "commodities/oil"
   get "commodities/renewables"
   get "commodities/copper"

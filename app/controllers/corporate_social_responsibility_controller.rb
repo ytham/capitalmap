@@ -1,5 +1,5 @@
 class SustainabilityDataController < ApplicationController
-  def social_data
+  def corporate_social_responsibility
     if signed_in?
       respond_to do |format|
         format.html
