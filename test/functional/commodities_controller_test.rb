@@ -25,4 +25,8 @@ class CommoditiesControllerTest < ActionController::TestCase
     get :coal
     assert_response :success
   end
+  test "should get natural_gas" do
+    get :coal
+    assert_response :success
+  end
 end
