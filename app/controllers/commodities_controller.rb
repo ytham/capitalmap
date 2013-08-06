@@ -28,4 +28,13 @@ class CommoditiesController < ApplicationController
       redirect_to root_url
     end
   end
+  def gold
+    if signed_in?
+      respond_to do |format|
+        format.html
+      end
+    else
+      redirect_to root_url
+    end
+  end
 end

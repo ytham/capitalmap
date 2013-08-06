@@ -6,6 +6,7 @@ Finance::Application.routes.draw do
   get "commodities/oil"
   get "commodities/renewables"
   get "commodities/copper"
+  get "commodities/gold"
   get "securities/corporate_bonds"
   get "securities/soverign_bonds"
   get "securities/municipal_bonds"
