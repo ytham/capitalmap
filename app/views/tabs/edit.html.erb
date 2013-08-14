@@ -1,0 +1,23 @@
+<h1>Edit Tableau</h1>
+
+<%= form_for @tab do |f| %>
+  <p>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :section %>
+    <%= f.text_field :section %>
+  </p>
+  <p>
+    <%= f.label "Commentary (Optional)" %>
+    <%= f.text_field :comment %>
+  </p>
+  <p>
+    <%= f.label "Paste Tableau Code" %>
+    <%= f.text_area :tableau %>
+  </p>
+  <p>
+    <%= f.submit "Submit Edit" %>
+  </p>
+<% end %>

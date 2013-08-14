@@ -1,4 +1,16 @@
 Finance::Application.routes.draw do
+  get "tabs/index"
+
+  get "tabs/show"
+
+  get "tabs/new"
+
+  get "tabs/create"
+
+  get "tabs/edit"
+
+  get "tabs/destroy"
+
   get "articles/index"
   get "sustainability_data/corporate_social_responsibility"
   get "sustainability_data/corporate_governance"
@@ -31,6 +43,7 @@ Finance::Application.routes.draw do
   resources :currencies
   resources :sustainability_data
   resources :articles
+  resources :tabs
 
   resources :sessions
 
@@ -42,6 +55,7 @@ Finance::Application.routes.draw do
   match '/contact', to: 'static#contact'
   match '/about', to: 'static#about'
   match '/logout', to: 'sessions#destroy'
+  match '/admin', to: 'tabs#index'
 
   root to: 'static#index'
 

@@ -1,0 +1,6 @@
+    [ 
+      <%= link_to 'View', t %> | 
+      <%= link_to 'Edit', edit_tab_path(t) %> | 
+      <%= link_to 'Delete', t, method: :delete, data: { confirm: 'Delete this page?' } %>
+    ]
+    <b><%= link_to t.title, t %></b><br>

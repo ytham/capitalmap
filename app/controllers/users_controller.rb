@@ -20,7 +20,8 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.create(params[:user])
+    @user = User.new(params[:user])
+    @user.admin = false
     if @user.save
       session[:user_id] = @user.id
       current_user = @user

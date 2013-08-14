@@ -6,6 +6,7 @@ class User
   field :first_name, type: String
   field :last_name, type: String
   field :email, type: String
+  field :admin, type: Boolean
   field :password_hash, type: String
   field :password_salt, type: String
 
@@ -13,11 +14,10 @@ class User
   validates_presence_of :last_name
   validates_presence_of :email
   validates_confirmation_of :password
-  #validates_uniqueness_of :email, on: :create, message: "is already taken."
+  validates_uniqueness_of :email, on: :create, message: "is already taken."
 
   #validates :name, length: { in: 3..25 }
   #validates :password, length: { in: 6..96 }, unless: :update
-
   #validates_format_of :email, :with => /^(|(([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6})$/i
 
   has_many :stocks
@@ -44,4 +44,10 @@ class User
       self.password_hash = BCrypt::Engine.hash_secret(password, password_salt)
     end
   end
+
+  def toggle!(field)
+    send "#{field}=", !self.send("#{field}?")
+    save :validation => false
+  end
+  
 end

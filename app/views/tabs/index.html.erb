@@ -1,0 +1,29 @@
+<h1 style="text-align: center">Admin Portal</h1>
+
+<p><%= link_to 'Add Page', new_tab_path %></p>
+
+<br />
+<h2>Securities</h2>
+<% @tabs.where(section: 'Securities').each do |t| %>
+  <%= render partial: 'tab', locals: { t: t } %>
+<% end %>
+<br />
+<h2>Commodities</h2>
+<% @tabs.where(section: 'Commodities').each do |t| %>
+  <%= render partial: 'tab', locals: { t: t } %>
+<% end %>
+<br />
+<h2>Currencies</h2>
+<% @tabs.where(section: 'Currencies').each do |t| %>
+  <%= render partial: 'tab', locals: { t: t } %>
+<% end %>
+<br />
+<h2>Economic Data</h2>
+<% @tabs.where(section: 'Economic Data').each do |t| %>
+  <%= render partial: 'tab', locals: { t: t } %>
+<% end %>
+<br />
+<h2>Sustainability Data</h2>
+<% @tabs.where(section: 'Sustainability Data').each do |t| %>
+  <%= render partial: 'tab', locals: { t: t } %>
+<% end %>
