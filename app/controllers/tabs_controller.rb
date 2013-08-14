@@ -15,7 +15,7 @@ class TabsController < ApplicationController
   def create
     @tab = Tab.new(params[:tab])
     if @tab.save
-      redirect_to @tab
+      redirect_to tabs_url
     else
       redirect_to root_url
     end
