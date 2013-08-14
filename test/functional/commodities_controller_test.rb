@@ -16,4 +16,17 @@ class CommoditiesControllerTest < ActionController::TestCase
     assert_response :success
   end
 
+  test "should get gold" do
+    get :gold
+    assert_response :success
+  end
+
+  test "should get coal" do
+    get :coal
+    assert_response :success
+  end
+  test "should get natural_gas" do
+    get :coal
+    assert_response :success
+  end
 end
