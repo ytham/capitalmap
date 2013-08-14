@@ -5,6 +5,7 @@ class TabsController < ApplicationController
 
   def show
     @tab = Tab.find(params[:id])
+    @tabs = Tab.all
   end
 
   def new

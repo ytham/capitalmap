@@ -1,0 +1,95 @@
+<div class="accordion" id="accordion2">
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+        Securities
+      </a>
+    </div>
+    <div id="collapseOne" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul class="accordion-sub">
+          <li><a href="/securities/corporate_bonds" id="corporate_bonds">Corporate Bonds</a></li>
+          <li><a href="/securities/soverign_bonds" id="soverign_bonds">Soverign Bonds</a></li>
+          <li><a href="/securities/municipal_bonds" id="municipal_bonds">Municipal Bonds</a></li>
+          <li><a href="/securities/equities" id="equities">Equities</a></li>
+          <ul class="accordion-sub-sub">
+            <li><a href="/securities/equities/stock_growth" id="stock_growth">Stock Growth</a><li>
+          </ul>
+          <li><a href="/securities/etfs" id="etfs">ETFs</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+        Commodities
+      </a>
+    </div>
+    <div id="collapseTwo" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul class="accordion-sub">
+          <li><a href="/commodities/oil" id="oil">Oil</a></li>
+          <li><a href="/commodities/renewables" id="renewables">Renewables</a></li>
+          <li><a href="/commodities/copper" id="copper">Copper</a></li>
+          <li><a  href="/commodities/gold" id="gold">Gold</a></li>
+          <li><a href="/commodities/coal" id ="coal">Coal</a></li>
+          <li><a href="/commodities/natural_gas" id="natural_gas">Natural Gas</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+        Currencies
+      </a>
+    </div>
+    <div id="collapseThree" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul class="accordion-sub">
+          <li><a href="/currencies/largest_economies" id="largest_economies">Largest Economies</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour">
+        Economic Data
+      </a>
+    </div>
+    <div id="collapseFour" class="accordion-body collapse">
+      <div class="accordion-inner">
+        <ul class="accordion-sub">
+          <li><a href="/economic_data/national_accounts" id="national_accounts">National Accounts</a></li>
+          <li><a href="/economic_data/consumer_prices" id="consumer_prices">Consumer Prices</a></li>
+          <li><a href="/economic_data/producer_prices" id="producer_prices">Producer Prices</a></li>
+          <li><a href="/economic_data/economic_activity" id="economic_activity">Economic Activity</a></li>
+          <li><a href="/economic_data/leading_indicators" id="leading_indicators">Leading Indicators</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-group">
+    <div class="accordion-heading">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive">
+        Sustainability Data
+      </a>
+    </div>
+    <div id="collapseFive" class="accordion-body collapse">
+
+      <div class="accordion-inner">
+        <ul class="accordion-sub"> 
+          <li><a href="/sustainability_data/corporate_social_responsibility" id="corporate_social_responsibility">Corporate Social Responsibility</a></li>
+          <li><a href="/sustainability_data/corporate_governance" id="corporate governance">Corporate Governance</a></li>
+          <li><a href="/sustainability_data/environmental_data" id="environmental_data">Environmental Data</a></li>
+        </ul>
+      </div> 
+    </div>
+  </div>
+</div>

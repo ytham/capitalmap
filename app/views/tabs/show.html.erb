@@ -1,12 +1,21 @@
-<% if current_user.admin %>
-  <%= link_to 'Admin Control Panel', admin_path %>
-<% end %>
+<div class="all-content">
+  <!-- SIDEBAR -->
+  <div class="nav-sidebar">
+    <%= render "users/sidebar" %>
+  </div>
 
-<h1><%= @tab.title %></h1>
+  <!-- MAIN CONTENT -->
+  <%= render "users/mainwrapper_head" %>
 
-<p>
-  <% if @tab.comment %>
-    <%= @tab.comment %><br />
+  <% if current_user.admin %>
+    <%= link_to 'Admin Control Panel', admin_path %>
   <% end %>
-  <%= raw @tab.tableau %>
-</p>
+
+  <p>
+    <% if @tab.comment %>
+      <%= @tab.comment %><br />
+    <% end %>
+    <%= raw @tab.tableau %>
+  </p>
+
+  <%= render "users/mainwrapper_foot" %>

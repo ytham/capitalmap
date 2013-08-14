@@ -5,6 +5,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
+    @tabs = Tab.all
     @search = Article.with(collection: "sec").first
     if @user == current_user
       respond_to do |format|

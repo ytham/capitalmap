@@ -1,3 +1,15 @@
 // Place all the styles related to the tabs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.new_tableau {
+  text-align: center;
+  input[type="text"], input[type="submit"], input[type="password"], textarea {
+    color: #000000;
+    background-color: #ffffff;
+    width: 650px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #003355;
+  }
+}
