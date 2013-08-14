@@ -11,11 +11,10 @@
     <%= link_to 'Admin Control Panel', admin_path %>
   <% end %>
 
-  <p>
-    <% if @tab.comment %>
-      <%= @tab.comment %><br />
-    <% end %>
-    <%= raw @tab.tableau %>
-  </p>
+  <% if @tab.comment %>
+    <%= @tab.comment %><br />
+  <% end %>
+  <%= raw @tab.tableau %>
+
 
   <%= render "users/mainwrapper_foot" %>
