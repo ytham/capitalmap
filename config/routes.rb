@@ -33,6 +33,7 @@ Finance::Application.routes.draw do
   get "economic_data/leading_indicators"
   get "economic_data/national_accounts"
   get "economic_data/producer_prices"
+  get "economic_data/us_recession_dates"
   get "stocks/create"
   get "stocks/destroy"
   get "sessions/create"
